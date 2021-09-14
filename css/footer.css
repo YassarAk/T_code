@@ -1,0 +1,88 @@
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    background: #fff;
+    width: 100%;
+    color: #000;
+}
+
+
+/* CONTENU DU PIED DE PAGE */
+
+.contenu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 100px;
+    font-size: 20px;
+}
+
+
+/* LES DIFFERENTES BOC DE PIED DE PAGE */
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-services h3,
+.footer-contact h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+}
+
+
+/* CONTENU DES DIFFERENTES BLOC DE PIED DE PAGE  */
+
+.liste_services,
+.social-icons {
+    list-style-type: none;
+}
+
+
+/* Services liste */
+
+.liste_services li {
+    padding: 2px 0;
+}
+
+.liste_services a {
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+}
+
+.liste-services a:hover {
+    color: #000;
+}
+
+
+/*social-icons*/
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ul .social-icons {
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+.social-icons a img {
+    width: 25px;
+}
